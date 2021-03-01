@@ -1,8 +1,11 @@
 # calculator
+A simple react calculator app.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live link
+[https://calculator-reac-app.netlify.app](https://calculator-reac-app.netlify.app)
 ## Available Scripts
 
 In the project directory, you can run:
