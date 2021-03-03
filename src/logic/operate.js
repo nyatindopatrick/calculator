@@ -12,6 +12,8 @@ const operate = (numberOne, numberTwo, operation) => {
       return Big(numberOne).minus(numberTwo);
     case '÷':
       return Big(numberOne).div(numberTwo);
+    case '%':
+      return Big(numberOne).div('100');
   }
 };
 
