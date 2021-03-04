@@ -6,8 +6,18 @@ const styles = (color, size) => ({
   width: size ? '50%' : '25%',
 });
 
-export default function Button({ button, wide = false, color = '#f5913e' }) {
-  return <input type="button" value={button} style={styles(color, wide)} />;
+export default function Button({
+  button,
+  wide = false,
+  color = '#f5913e',
+}) {
+  return (
+    <input
+      type="button"
+      value={button}
+      style={styles(color, wide)}
+    />
+  );
 }
 
 Button.propTypes = {
