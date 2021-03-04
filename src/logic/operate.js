@@ -5,13 +5,13 @@ const operate = (numberOne, numberTwo, operation) => {
   // eslint-disable-next-line default-case
   switch (operation) {
     case '+':
-      return Big(numberOne).plus(numberTwo);
+      return Big(numberOne).plus(numberTwo).toFixed();
     case 'X':
-      return Big(numberOne).times(numberTwo);
+      return Big(numberOne).times(numberTwo).toFixed();
     case '-':
-      return Big(numberOne).minus(numberTwo);
+      return Big(numberOne).minus(numberTwo).toFixed();
     case '÷':
-      return Big(numberOne).div(numberTwo);
+      return Big(numberOne).div(numberTwo).toFixed();
     case '%':
       return Big(numberOne).div('100');
   }
